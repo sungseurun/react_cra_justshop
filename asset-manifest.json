@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/react_cra_justshop/static/js/main.e8d9b105.js",
-    "index.html": "/react_cra_justshop/index.html",
-    "main.e8d9b105.js.map": "/react_cra_justshop/static/js/main.e8d9b105.js.map"
+    "main.js": "/my-app/static/js/main.e8d9b105.js",
+    "index.html": "/my-app/index.html",
+    "main.e8d9b105.js.map": "/my-app/static/js/main.e8d9b105.js.map"
   },
   "entrypoints": [
     "static/js/main.e8d9b105.js"
