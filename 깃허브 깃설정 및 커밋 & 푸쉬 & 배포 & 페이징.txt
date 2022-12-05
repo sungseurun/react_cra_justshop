@@ -59,8 +59,8 @@ drwxr-xr-x 1 Administrator 197121       0 12월  5 10:02  src/
 사용자 이름
 사용자 이메일
 
-git config user.name 'sungseurun'
-git config user.email 'tmfjs5902@gmail.com'
+git config user.name 'moonjongjs'
+git config user.email 'moonseonjong@naver.com'
 
 
 화면청소
@@ -75,17 +75,17 @@ git config user.email
 
 
 $ git config user.name
-sungseurun
+moonjongjs
 
 
 $ git config user.email
-tmfjs5902@gmail.com
+moonseonjong@naver.com
 
 
 //////////////////////////
 7. 깃허브 원격지 리파지토리(저장소) 주소 추가 지정 origin(url)
 
-git  remote  add  origin  https://github.com/sungseurun/just_shop.git
+git  remote  add  origin  https://github.com/moonjongjs/just_shop.git
 
 
 원격지 리파지토리(저장소) 주소 확인하기
@@ -93,8 +93,8 @@ git  remote  add  origin  https://github.com/sungseurun/just_shop.git
 git remote -v
 
 $ git remote -v
-origin  https://github.com/sungseurun/just_shop.git (fetch)
-origin  https://github.com/sungseurun/just_shop.git (push)
+origin  https://github.com/moonjongjs/just_shop.git (fetch)
+origin  https://github.com/moonjongjs/just_shop.git (push)
 
 
 만약잘못된 주소면 삭제하기
@@ -107,15 +107,15 @@ git remote -v
 
 
 깃허브 원격지 리파지토리(저장소) 주소 추가 지정 origin(url)
-git  remote  add  origin  https://github.com/sungseurun/just_shop.git
-git  remote  add  origin  https://github.com/sungseurun/just_shop_cra.git
+git  remote  add  origin  https://github.com/moonjongjs/just_shop.git
+git  remote  add  origin  https://github.com/moonjongjs/just_shop_cra.git
 
-만약 잘못된 주소 확인하기
+만약잘못된 주소 확인하기
 git remote -v
 
 $ git remote -v
-origin  https://github.com/sungseurun/just_shop.git (fetch)
-origin  https://github.com/sungseurun/just_shop.git (push)
+origin  https://github.com/moonjongjs/just_shop.git (fetch)
+origin  https://github.com/moonjongjs/just_shop.git (push)
 
 
 ////////////////////////////////////////////////////////////
@@ -188,9 +188,10 @@ remote:
 To https://github.com/moonjongjs/just_shop.git
    a34c0e7..3bb57df  master -> master
 
-   
 
-   ============= >  여기까지 하면 기본 사이트 배포는 된것임.  하지만 리액트는 배포하기까지 가야함.
+
+
+
 
 
 
@@ -205,21 +206,20 @@ To https://github.com/moonjongjs/just_shop.git
 
    None / Save
 
-   None 클릭 셀렉트 박스 열리면ls
+   None 클릭 셀렉트 박스 열리면
    master 선택한다. => 우측 save 클릭
 
 5) 새로고침 F5
    CTRL + SHIFT + R 
    캐시까지 삭제하는 새로고침
    
-   Your site is live at  https://sungseurun.github.io/react_cra_justshop/
+   Your site is live at https://moonjongjs.github.io/just_shop/
 
    배포주소
-    https://sungseurun.github.io/react_cra_justshop/
+   https://moonjongjs.github.io/just_shop/
 
    30초 ~ 1분 대기
    그리고 접속
-
 
 
 
@@ -228,6 +228,7 @@ To https://github.com/moonjongjs/just_shop.git
    => 
    중간 아래
    GitHub Pages  로 내려온다.
+
 
    Step 1: Add homepage to package.json
    //////////////////////////////////////////////
@@ -239,7 +240,7 @@ To https://github.com/moonjongjs/just_shop.git
    
    맨 아래쪽에 추가한다.   
 
-   "homepage": "https://sungseurun.github.io/react_cra_justshop/"
+   "homepage": "https://moonjongjs.github.io/just_shop/"
 
 
 
@@ -272,7 +273,7 @@ To https://github.com/moonjongjs/just_shop.git
             
             },
 
-            "homepage": "https://sungseurun.github.io/react_cra_justshop/"
+            "homepage": "https://moonjongjs.github.io/just_shop/"
 
          }
 
@@ -296,11 +297,7 @@ To https://github.com/moonjongjs/just_shop.git
     웹페이지 열린다. 배포 끝 
 
     브라우저 새탭 : 
-    https://sungseurun.github.io/react_cra_justshop/
-
-
-12. 웹브라우저에 배포주소로 연다
-    웹페이지 열린다. 배포 끝 
+    https://moonjongjs.github.io/just_shop/
 
 
 
@@ -318,14 +315,14 @@ git remote -v
 
 
 깃허브 원격지 리파지토리(저장소) 주소 추가 지정 origin(url)
-git  remote  add  origin  https://github.com/sungseurun/react_cra_justshop.git
+git  remote  add  origin  https://github.com/moonjongjs/just_shop_cra.git
 
 주소 확인하기
 git remote -v
 
 $ git remote -v
-origin  https://github.com/sungseurun/react_cra_justshop.git (fetch)
-origin  https://github.com/sungseurun/react_cra_justshop.git (push)
+origin  https://github.com/moonjongjs/just_shop_cra.git (fetch)
+origin  https://github.com/moonjongjs/just_shop_cra.git (push)
 
 
 git add .
