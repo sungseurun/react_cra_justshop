@@ -278,14 +278,14 @@ git remote -v
 
 
 깃허브 원격지 리파지토리(저장소) 주소 추가 지정 origin(url)
-git  remote  add  origin  https://github.com/moonjongjs/just_shop_cra.git
+git  remote  add  origin  https://github.com/sungseurun/react_cra_justshop.git
 
 주소 확인하기
 git remote -v
 
 $ git remote -v
-origin  https://github.com/moonjongjs/just_shop_cra.git (fetch)
-origin  https://github.com/moonjongjs/just_shop_cra.git (push)
+origin  https://github.com/sungseurun/react_cra_justshop.git (fetch)
+origin  https://github.com/sungseurun/react_cra_justshop.git (push)
 
 
 git add .
