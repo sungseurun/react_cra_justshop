@@ -188,10 +188,9 @@ remote:
 To https://github.com/moonjongjs/just_shop.git
    a34c0e7..3bb57df  master -> master
 
+   
 
-
-
-
+   ============= >  여기까지 하면 기본 사이트 배포는 된것임.  하지만 리액트는 배포하기까지 가야함.
 
 
 
@@ -213,10 +212,10 @@ To https://github.com/moonjongjs/just_shop.git
    CTRL + SHIFT + R 
    캐시까지 삭제하는 새로고침
    
-   Your site is live at https://sung.github.io/just_shop/
+   Your site is live at  https://sungseurun.github.io/react_cra_justshop/
 
    배포주소
-   https://moonjongjs.github.io/just_shop/
+    https://sungseurun.github.io/react_cra_justshop/
 
    30초 ~ 1분 대기
    그리고 접속
@@ -240,13 +239,14 @@ To https://github.com/moonjongjs/just_shop.git
    
    맨 아래쪽에 추가한다.   
 
-   "homepage": "https://moonjongjs.github.io/just_shop/"
+   "homepage": "https://sungseurun.github.io/react_cra_justshop/"
 
 
 
    Step 2: Install gh-pages and add deploy to scripts in package.json
    //////////////////////////////////////////////
-   gh-pages => npm i  gh-pages 
+   gh-pages 설치하기
+   => $ npm i  gh-pages 
                npm install --save gh-pages
    //////////////////////////////////////////////
    
